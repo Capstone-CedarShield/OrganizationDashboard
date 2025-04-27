@@ -19,7 +19,7 @@ const lebanonBounds = {
 
 const Maps = ({ incidentLocation }) => {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey: 'AIzaSyBXGGBbpCxSdardQw9h_BlN6EwpGgARxTg',
+    googleMapsApiKey: '',
     libraries,
   });
 
